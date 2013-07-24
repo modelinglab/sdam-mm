@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-release</actionName>
+            <displayName>release</displayName>
+            <goals>
+                <goal>-B</goal>
+                <goal>release:prepare-with-pom</goal>
+                <goal>release:perform</goal>
+            </goals>
+            <activatedProfiles>
+                <activatedProfile>release</activatedProfile>
+            </activatedProfiles>
+        </action>
+    </actions>
