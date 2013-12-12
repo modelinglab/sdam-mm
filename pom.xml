@@ -4,12 +4,12 @@
     <parent>
         <groupId>org.modelinglab</groupId>
         <artifactId>general-parent</artifactId>
-        <version>2</version>
+        <version>4</version>
     </parent>
     
     <groupId>org.modelinglab.mm</groupId>
     <artifactId>sdam</artifactId>
-    <version>1.0.7-SNAPSHOT</version>
+    <version>1.0.7</version>
     <name>Meta: Sdam (Secure Data Access)</name>
     
     <scm>
@@ -26,7 +26,7 @@
         <dependency>
             <groupId>org.modelinglab.ocl</groupId>
             <artifactId>core</artifactId>
-            <version>1.0.6-SNAPSHOT</version>
+            <version>1.0.6</version>
             <type>jar</type>
         </dependency>
     </dependencies>
