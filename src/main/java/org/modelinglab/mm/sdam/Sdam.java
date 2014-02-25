@@ -114,4 +114,8 @@ public class Sdam implements Serializable {
 	public String toString() {
 		return modelName + " security model";
 	}
+
+    public Map<String, Map<Element, EnumMap<AccessEnum, OclExpression>>> getPermissionTable() {
+        return permissionTable;
+    }
 }
